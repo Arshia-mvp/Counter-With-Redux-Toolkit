@@ -1,0 +1,122 @@
+@keyframes counterPop {
+  0% {
+    transform: scale(0.65);
+    opacity: 0;
+  }
+
+  60% {
+    transform: scale(1.15);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes counterPop {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+    filter: blur(8px);
+  }
+
+  55% {
+    transform: scale(1.18);
+    opacity: 1;
+    filter: blur(0);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes counterPop {
+  0% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+
+  55% {
+    transform: scale(1.12);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes gridMove {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 60px;
+  }
+}
+
+@keyframes ambientFloat {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+
+  50% {
+    transform: translate3d(20px, -20px, 0) scale(1.08);
+  }
+}
+
+@keyframes counterGlow {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.015);
+  }
+}
+
+@keyframes shineMove {
+  0% {
+    transform: translateX(-120%) skewX(-20deg);
+  }
+
+  100% {
+    transform: translateX(220%) skewX(-20deg);
+  }
+}
+
+@keyframes buttonPulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+.ambient-orb {
+  animation: ambientFloat 8s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
