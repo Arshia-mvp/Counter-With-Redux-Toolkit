@@ -14,3 +14,6 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Counter-With-Redux-Toolkit
+hello everyone my project about counter of numbrs and with a redux toolkit i hope you like it.
+6ea4c2d1e4598a65a5cd05b6da258a01bf1c8c82
